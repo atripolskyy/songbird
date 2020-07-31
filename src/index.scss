@@ -1,1 +1,32 @@
+body {
+  background-color: #222222;
+}
 
+.page-wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 68.75rem;
+  padding: 2rem .5625rem;
+
+  background: transparent;
+}
+
+.header-menu {
+  display: flex;
+}
+
+.header-menu .menu__item {
+  display: flex;
+  flex: auto;
+  height: 2.5rem;
+  justify-content: center;
+  align-items: center;
+
+  color: #ffffff;
+  line-height: normal;
+  background-color: #008966;
+
+  &:hover {
+    background: #00bc8c;
+  }
+}
